@@ -6,7 +6,13 @@ suitable for very large scope targets
 just run 
 python3 massxssautomator.py
 
+<pre><code class="language-bash">
+# Command 1
+$ your_command_here
 
+# Command 2
+$ another_command_here
+</code></pre>
 
   
 <p style="font-size: 18px;">INSTALLATION</p>
