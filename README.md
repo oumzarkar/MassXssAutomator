@@ -6,8 +6,8 @@ suitable for very large scope targets
 just run 
 ```bash
 $python3 massxssautomator.py
-##
-<tab><tab>code/text here
+##abc
+
 
   
 <p style="font-size: 18px;">INSTALLATION</p>
