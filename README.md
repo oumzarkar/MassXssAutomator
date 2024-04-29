@@ -4,9 +4,8 @@ uses assetfinder,katana,httpx and xss_vibes to find xss vulnerabilites in websit
 utilizes maximum available resouces 
 suitable for very large scope targets
 just run 
-```bash
-$python3 massxssautomator.py
-##abc
+python3 massxssautomator.py
+
 
 
   
