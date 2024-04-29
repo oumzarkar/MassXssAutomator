@@ -4,7 +4,8 @@ uses assetfinder,katana,httpx and xss_vibes to find xss vulnerabilites in websit
 utilizes maximum available resouces 
 suitable for very large scope targets
 just run 
-```python3 massxssautomator.py```
+```bash
+$python3 massxssautomator.py
 
 <p style="font-size: 18px;">INSTALLATION</p>
 1)make sure you have go installed with version go1.22
