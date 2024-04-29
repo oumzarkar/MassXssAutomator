@@ -25,6 +25,8 @@
   <pre><code class="language-bash">httpx</code></pre>
 4)Install assetfinder
   <pre><code class="language-bash">apt install assetfinder</code></pre>
+5)and Lastly 
+<pre><code class="language-bash">pip install requirements.txt</code></pre>
   
   
 
