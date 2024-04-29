@@ -6,7 +6,10 @@ suitable for very large scope targets
 just run 
 ```bash
 $python3 massxssautomator.py
+##
+<tab><tab>code/text here
 
+  
 <p style="font-size: 18px;">INSTALLATION</p>
 1)make sure you have go installed with version go1.22
   `wget https://go.dev/dl/go1.22.2.linux-amd64.tar.gz`
