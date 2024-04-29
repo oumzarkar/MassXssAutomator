@@ -22,7 +22,7 @@ python3 massxssautomator.py
   export PATH=$PATH:/usr/local/go/bin
   </code></pre>    
   <pre><code class="language-bash">
-  go version
+    go version
   </code></pre>  
 2)Install katana
   <pre><code class="language-bash">
