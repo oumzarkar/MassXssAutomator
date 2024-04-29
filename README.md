@@ -26,7 +26,7 @@
 4)Install assetfinder
   <pre><code class="language-bash">apt install assetfinder</code></pre>
 5)and Lastly 
-<pre><code class="language-bash">pip install requirements.txt</code></pre>
+<pre><code class="language-bash">pip install -r requirements</code></pre>
   
   
 
