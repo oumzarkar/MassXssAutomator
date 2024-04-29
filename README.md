@@ -1,9 +1,9 @@
 <h1 style="font-size: 36px;">MassXssAutomator</h1>
-Intigration script for my fellow lazy bug hunters
-uses assetfinder,katana,httpx and xss_vibes to find xss vulnerabilites in websites
-utilizes maximum available resouces 
-suitable for very large scope targets
-just run 
+<p>Intigration script for my fellow lazy bug hunters</p>
+<p>uses assetfinder,katana,httpx and xss_vibes to find xss vulnerabilites in websites
+<p>utilizes maximum available resouces </p>
+<p>suitable for very large scope targets</p>
+<p>just run </p>
 
 <pre><code class="language-bash">
 python3 massxssautomator.py
