@@ -5,49 +5,26 @@
 <p>suitable for very large scope targets</p>
 <p>just run </p>
 
-<pre><code class="language-bash">
-python3 massxssautomator.py
-</code></pre>
+<pre><code class="language-bash">python3 massxssautomator.py</code></pre>
 
   
 <p style="font-size: 18px;">INSTALLATION</p>
 1)make sure you have go installed with version go1.22
-  <pre><code class="language-bash">
-  wget https://go.dev/dl/go1.22.2.linux-amd64.tar.gz
-  </code></pre>
-  <pre><code class="language-bash">
-  rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.2.linux-amd64.tar.gz
-  </code></pre>    
+  <pre><code class="language-bash">wget https://go.dev/dl/go1.22.2.linux-amd64.tar.gz</code></pre>
+  <pre><code class="language-bash">rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.2.linux-amd64.tar.gz</code></pre>    
   <pre><code class="language-bash">export PATH=$PATH:/usr/local/go/bin</code></pre>    
 2)Install katana
-  <pre><code class="language-bash">
-  go install github.com/projectdiscovery/katana/cmd/katana@latest
-  </code></pre>  
+  <pre><code class="language-bash">go install github.com/projectdiscovery/katana/cmd/katana@latest</code></pre>  
 
-  <pre><code class="language-bash">
-  cp ~/go/bin/katana /usr/bin/
-  </code></pre>    
-  <pre><code class="language-bash">
-  katana
-  </code></pre>
+  <pre><code class="language-bash">cp ~/go/bin/katana /usr/bin/</code></pre>    
+  <pre><code class="language-bash">katana</code></pre>
 3)Install httpx
-  apt remove python3-httpx
-  <pre><code class="language-bash">
-  apt remove python3-httpx
-  </code></pre>
-  <pre><code class="language-bash">
-  go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
-  </code></pre>
-  <pre><code class="language-bash">
-  cp ~/go/bin/httpx /usr/bin/
-  </code></pre>
-  <pre><code class="language-bash">
-  httpx
-  </code></pre>
+  <pre><code class="language-bash">apt remove python3-httpx</code></pre>
+  <pre><code class="language-bash">go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest</code></pre>
+  <pre><code class="language-bash">cp ~/go/bin/httpx /usr/bin/</code></pre>
+  <pre><code class="language-bash">httpx</code></pre>
 4)Install assetfinder
-  <pre><code class="language-bash">
-  apt install assetfinder
-  </code></pre>
+  <pre><code class="language-bash">apt install assetfinder</code></pre>
   
   
 
