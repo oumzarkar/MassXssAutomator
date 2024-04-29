@@ -18,12 +18,7 @@ python3 massxssautomator.py
   <pre><code class="language-bash">
   rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.2.linux-amd64.tar.gz
   </code></pre>    
-  <pre><code class="language-bash">
-  export PATH=$PATH:/usr/local/go/bin
-  </code></pre>    
-  <pre><code class="language-bash">
-    go version
-  </code></pre>  
+  <pre><code class="language-bash">export PATH=$PATH:/usr/local/go/bin</code></pre>    
 2)Install katana
   <pre><code class="language-bash">
   go install github.com/projectdiscovery/katana/cmd/katana@latest
