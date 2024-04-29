@@ -4,34 +4,55 @@ uses assetfinder,katana,httpx and xss_vibes to find xss vulnerabilites in websit
 utilizes maximum available resouces 
 suitable for very large scope targets
 just run 
-python3 massxssautomator.py
 
 <pre><code class="language-bash">
-# Command 1
-$ your_command_here
-
-# Command 2
-$ another_command_here
+python3 massxssautomator.py
 </code></pre>
 
   
 <p style="font-size: 18px;">INSTALLATION</p>
 1)make sure you have go installed with version go1.22
-  `wget https://go.dev/dl/go1.22.2.linux-amd64.tar.gz`
-  `rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.2.linux-amd64.tar.gz`
-  `export PATH=$PATH:/usr/local/go/bin`
-  `go version`
+  <pre><code class="language-bash">
+  wget https://go.dev/dl/go1.22.2.linux-amd64.tar.gz
+  </code></pre>
+  <pre><code class="language-bash">
+  rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.2.linux-amd64.tar.gz
+  </code></pre>    
+  <pre><code class="language-bash">
+  export PATH=$PATH:/usr/local/go/bin
+  </code></pre>    
+  <pre><code class="language-bash">
+  go version
+  </code></pre>  
 2)Install katana
-  `go install github.com/projectdiscovery/katana/cmd/katana@latest`
-  `cp ~/go/bin/katana /usr/bin/`
-  `katana`
+  <pre><code class="language-bash">
+  go install github.com/projectdiscovery/katana/cmd/katana@latest
+  </code></pre>  
+
+  <pre><code class="language-bash">
+  cp ~/go/bin/katana /usr/bin/
+  </code></pre>    
+  <pre><code class="language-bash">
+  katana
+  </code></pre>
 3)Install httpx
-  `apt remove python3-httpx`
-  `go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest`
-  `cp ~/go/bin/httpx /usr/bin/`
-  `httpx`
+  apt remove python3-httpx
+  <pre><code class="language-bash">
+  apt remove python3-httpx
+  </code></pre>
+  <pre><code class="language-bash">
+  go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+  </code></pre>
+  <pre><code class="language-bash">
+  cp ~/go/bin/httpx /usr/bin/
+  </code></pre>
+  <pre><code class="language-bash">
+  httpx
+  </code></pre>
 4)Install assetfinder
-  `apt install assetfinder`
+  <pre><code class="language-bash">
+  apt install assetfinder
+  </code></pre>
   
   
 
