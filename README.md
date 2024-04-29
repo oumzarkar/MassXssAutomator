@@ -8,7 +8,7 @@
 <pre><code class="language-bash">python3 massxssautomator.py</code></pre>
 
   
-<p style="font-size: 18px;">INSTALLATION</p>
+<p style="font-size: 28px;">INSTALLATION</p>
 1)Make sure you have go installed with version go1.22
   <pre><code class="language-bash">wget https://go.dev/dl/go1.22.2.linux-amd64.tar.gz</code></pre>
   <pre><code class="language-bash">rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.2.linux-amd64.tar.gz</code></pre>    
